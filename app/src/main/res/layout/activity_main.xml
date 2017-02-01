@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/solarium_bg"
+    tools:context="com.envionsoftware.saunainfo.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/video_frame"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <VideoView
+            android:id="@+id/video_player_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            />
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:id="@+id/header_text"
+            android:text="Hello World!"
+            android:visibility="visible"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/imgSolarium"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:onClick="onImageClick"
+                    android:src="@drawable/solarium3"/>
+                <TextView
+                    android:id="@+id/txtSolarium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imgSolarium"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20sp"
+                    android:text="Солярий"/>
+                <TextView
+                    android:id="@+id/txtSolariumTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/timer_font_size"
+                    android:visibility="gone"
+                    android:text="00:00:00"/>
+            </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/footer_text"
+            android:layout_weight="5"
+            android:text="Hello World!"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SolariumInfo</string>
+    <string name="main_name">Посещение солярия</string>
+    <string name="main_title">Информация о посещении солярия</string>
+    <string name="solarium">Солярий</string>
+    <string name="solarium_free">Солярий свободен</string>
+    <string name="solarium_busy">Солярий занят</string>
+    <string name="action_settings">Настройки</string>
+    <string name="msg_welcome">Добро пожаловать в систему!</string>
+    <string name="m_video_download">Выполняется загрузка видео файла</string>
+    <string name="m_video_not_found">Видео файл \%%s не найден на сервере</string>
+    <string name="title_activity_video_player">VideoPlayer</string>
+
+    <string name="network_ok">"Есть подключение к сети "</string>
+    <string name="network_fail">Нет подключения к сети!</string>
+    <string name="conn_ok">Есть подключение к серверу</string>
+    <string name="conn_fail">Ошибка при подключении к серверу</string>
+
+    <string name="action_play_in_sound">Звук начала</string>
+    <string name="action_play_out_sound">Звук окончания</string>
+    <string name="action_play_video">Видео заставка</string>
+    <string name="m_wait_file">"Ожидаем данные..."</string>
+    <string name="m_get_file">"Загружаем файл "</string>
+    <string name="m_download_result_err">"Ошибка загрузки файла "</string>
+    <string name="action_exit">Выход</string>
+    <string name="action_debug_mode_on">Включить отладочный режим</string>
+    <string name="action_debug_mode_off">Выключить отладочный режим</string>
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="solarium_bg">#443B7F</color>
+
+    <color name="orange">#ff5500</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="date_color">#999999</color>
+    <color name="black">#000000</color>
+    <color name="gray">#999999</color>
+    <color name="blue">#0066cc</color>
+    <color name="dkgreen">#006600</color>
+    <color name="gold">#e6b121</color>
+    <color name="blueback">#99FFFF</color>
+    <color name="ltblue">#77aacc</color>
+    <color name="articlecolor">#3399FF</color>
+    <color name="article_title">#3399FF</color>
+    <color name="cachecolor">#8ad0e8</color>
+    <color name="modified">#16dbce</color>
+    <color name="title">#00468E</color>
+
+    <color name="table_title">#CCCCCC</color>
+    <color name="table_data">#FCFCFC</color>
+    <color name="table_info">#FF000000</color>
+    <color name="table_today">@color/blue</color>
+    <color name="table_today_bg">@color/blueback</color>
+    <color name="table_future_day">@color/magenta</color>
+
+    <color name="award_yes">#D2FFD2</color>
+    <color name="award_no_pre">#B3D9FF</color>
+    <color name="award_no">#77B9FF</color>
+    <color name="award_no_fine_no">#FFD5BF</color>
+    <color name="award_no_fine_yes">#FFBBBB</color>
+    <color name="award_no_month">#E6E6E6</color>
+    <color name="award_empty">#FFFFEA</color>
+    <color name="award_tbl_title">#CCE6FF</color>
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <!-- <color name="blue">#0000FF</color> -->
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="title_bg">#1F541C</color>
+    <color name="title_fg">@color/white</color>
+
+</resources>
